@@ -1,0 +1,33 @@
+{
+	"name": "DelimitedText1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage13",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "sample_data.xlsx",
+				"container": "windowfun"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "PK\u0003\u0004\u0014\u0000\u0000\u0000\b\u0000\u0000\u0000?\u0000a]I:O\u0001\u0000\u0000�\u0004\u0000\u0000\u0013\u0000\u0000\u0000[Content_Types].xml���n�0\u0010E�����*1tQU\u0015�E\u001f�\u0016��\u0003\\{B",
+				"type": "String"
+			},
+			{
+				"name": "\u001c��\f\u0014����P[Q��M�d��sǎ<\u0018-\u001b�- �",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

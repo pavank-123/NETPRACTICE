@@ -1,0 +1,9 @@
+{
+	"name": "o1demodfactory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c9c22ae2-bc58-40e2-b872-645a3f512dce",
+		"tenantId": "b091ecf9-9bb6-4352-89a4-9e9a3b3db3dd"
+	}
+}
